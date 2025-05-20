@@ -16,6 +16,15 @@ public class Student
 {
                
     private String name;
+    private String bag;
+
+    public String getBag() {
+        return bag;
+    }
+
+    public void setBag(String bag) {
+        this.bag = bag;
+    }
     
     public Student(){
     
